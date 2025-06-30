@@ -108,12 +108,12 @@ const Contact = () => {
                   animate={isInView ? { opacity: 1, x: 0 } : {}}
                   transition={{ delay: 0.4 + index * 0.1, duration: 0.6 }}
                   whileHover={{ scale: 1.02, x: 10 }}
-                  className="flex items-center gap-4 p-4 bg-slate-700/30 rounded-xl hover:bg-slate-700/50 transition-all duration-300"
+                  className="flex items-center gap-4 p-4 !cursor-not-allowed bg-slate-700/30 rounded-xl hover:bg-slate-700/50 transition-all duration-300"
                 >
                   <div className={`p-3 rounded-full bg-gradient-to-r ${info.color}`}>
                     <info.icon className="text-white text-xl" />
                   </div>
-                  <div>
+                  <div className=''>
                     <h4 className="text-white font-semibold">{info.title}</h4>
                     <p className="text-gray-300">{info.value}</p>
                   </div>
