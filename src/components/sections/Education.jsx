@@ -9,33 +9,19 @@ const Education = () => {
 
   const educationData = [
     {
-      degree: "Bachelor of Science in Computer Science",
-      institution: "University of Technology",
-      duration: "2020 - 2024",
+      degree: "Bachelor of Science in Computer Science and Engineering",
+      institution: "Bangladesh University of Business & Technology",
+      duration: "2017 - 2021",
       location: "Dhaka, Bangladesh",
-      description: "Focused on software engineering, algorithms, data structures, and web development. Graduated with honors and completed several capstone projects.",
+      description: "Focused on software engineering, algorithms, data structures, and web development. Graduated with honors and completed capstone project.",
       achievements: [
         "Graduated with First Class Honours",
-        "Completed 15+ programming projects",
         "Member of Programming Club",
-        "Participated in hackathons and coding competitions"
+        "Participated in inter-university coding competitions"
       ],
       gpa: "3.8/4.0"
     },
-    {
-      degree: "Higher Secondary Certificate (HSC)",
-      institution: "Science Group",
-      duration: "2018 - 2020",
-      location: "Dhaka, Bangladesh",
-      description: "Completed higher secondary education with focus on Mathematics, Physics, and Chemistry. Developed strong analytical and problem-solving skills.",
-      achievements: [
-        "Achieved GPA 5.00/5.00",
-        "Top 5% in class",
-        "Member of Science Club",
-        "Participated in science fairs"
-      ],
-      gpa: "5.0/5.0"
-    }
+    
   ];
 
   return (

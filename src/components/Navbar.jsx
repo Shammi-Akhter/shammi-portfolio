@@ -50,7 +50,7 @@ const Navbar = () => {
             className="flex-shrink-0"
           >
             <h1 className="text-2xl font-bold text-white">
-              <span className="text-purple-400">Shammi</span> Portfolio
+              <img className='w-10 h-10' src="/portfolio-logo.png" alt="" />
             </h1>
           </motion.div>
 

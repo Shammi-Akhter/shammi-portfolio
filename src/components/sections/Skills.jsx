@@ -10,12 +10,12 @@ const Skills = () => {
     {
       title: "Frontend",
       skills: [
-        { name: "React", level: 90, color: "from-purple-500 to-pink-500" },
-        { name: "JavaScript", level: 85, color: "from-purple-500 to-pink-500" },
-        { name: "HTML/CSS", level: 95, color: "from-purple-500 to-pink-500" },
+        { name: "HTML", level: 95, color: "from-purple-500 to-pink-500" },
+        { name: "CSS", level: 90, color: "from-purple-500 to-pink-500" },
+        { name: "JavaScript", level: 80, color: "from-purple-500 to-pink-500" },
         { name: "Tailwind CSS", level: 88, color: "from-purple-500 to-pink-500" },
-        { name: "TypeScript", level: 75, color: "from-purple-500 to-pink-500" },
-        { name: "Next.js", level: 80, color: "from-purple-500 to-pink-500" },
+        { name: "React", level: 75, color: "from-purple-500 to-pink-500" },
+        
       ]
     },
     {
@@ -25,7 +25,7 @@ const Skills = () => {
         { name: "Express.js", level: 78, color: "from-purple-500 to-pink-500" },
         { name: "MongoDB", level: 75, color: "from-purple-500 to-pink-500" },
         { name: "Firebase", level: 72, color: "from-purple-500 to-pink-500" },
-        { name: "vercel", level: 60, color: "from-purple-500 to-pink-500" },
+        
       ]
     },
     {
@@ -36,7 +36,7 @@ const Skills = () => {
         { name: "Figma", level: 70, color: "from-purple-500 to-pink-500" },
         { name: "Vite", level: 80, color: "from-purple-500 to-pink-500" },
         { name: "VScode", level: 75, color: "from-purple-500 to-pink-500" },
-        { name: "cursor", level: 60, color: "from-purple-500 to-pink-500" },
+        { name: "vercel", level: 60, color: "from-purple-500 to-pink-500" },
       ]
     }
   ];
@@ -112,7 +112,7 @@ const Skills = () => {
         </div>
 
         {/* Additional Skills */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ delay: 0.8, duration: 0.8 }}
@@ -140,7 +140,7 @@ const Skills = () => {
               </motion.span>
             ))}
           </div>
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   );

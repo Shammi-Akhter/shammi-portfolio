@@ -14,9 +14,9 @@ const Footer = () => {
   return (
     <footer className="bg-slate-900/80 border-t border-slate-700/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-8"> */}
           {/* Brand */}
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
@@ -26,7 +26,7 @@ const Footer = () => {
               <span className="text-purple-400">Shammi</span> Portfolio
             </h3>
             <p className="text-gray-300 mb-4">
-              Frontend Developer passionate about creating innovative web solutions 
+              Full Stack Developer passionate about creating innovative web solutions 
               and turning ideas into reality.
             </p>
             <div className="flex justify-center md:justify-start gap-4">
@@ -45,10 +45,10 @@ const Footer = () => {
                 </motion.a>
               ))}
             </div>
-          </motion.div>
+          </motion.div> */}
 
           {/* Quick Links */}
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
@@ -72,10 +72,10 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
-          </motion.div>
+          </motion.div> */}
 
           {/* Contact Info */}
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
@@ -88,7 +88,7 @@ const Footer = () => {
               <p>Location: Dhaka, Bangladesh</p>
             </div>
           </motion.div>
-        </div>
+        </div> */}
 
         {/* Bottom Bar */}
         <motion.div

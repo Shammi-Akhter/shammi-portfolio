@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef, useState } from 'react';
 import { FaEnvelope, FaPhone, FaWhatsapp, FaMapMarkerAlt, FaPaperPlane } from 'react-icons/fa';
-
+import { FaGithub, FaLinkedin, FaTwitter, FaFacebook, FaHeart } from 'react-icons/fa';
 const Contact = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
@@ -28,13 +28,13 @@ const Contact = () => {
       link: "+880 1612332923",
       color: "from-green-500 to-emerald-500"
     },
-    {
-      icon: FaWhatsapp,
-      title: "WhatsApp",
-      value: "+880 1234-567890",
-      link: "https://wa.me/8801234567890",
-      color: "from-green-400 to-green-500"
-    },
+    // {
+    //   icon: FaWhatsapp,
+    //   title: "WhatsApp",
+    //   value: "+880 1234-567890",
+    //   link: "https://wa.me/8801234567890",
+    //   color: "from-green-400 to-green-500"
+    // },
     {
       icon: FaMapMarkerAlt,
       title: "Location",
@@ -131,10 +131,13 @@ const Contact = () => {
               <h4 className="text-white font-semibold mb-4">Follow Me</h4>
               <div className="flex gap-4">
                 {[
-                  { icon: "FaGithub", href: "https://github.com/yourusername", label: "GitHub" },
-                  { icon: "FaLinkedin", href: "https://linkedin.com/in/yourusername", label: "LinkedIn" },
-                  { icon: "FaTwitter", href: "https://twitter.com/yourusername", label: "Twitter" },
-                  { icon: "FaFacebook", href: "https://facebook.com/yourusername", label: "Facebook" }
+                   
+                    { icon: FaGithub, href: 'https://github.com/Shammi-Akhter', label: 'GitHub' },
+                    { icon: FaLinkedin, href: 'https://www.linkedin.com/in/shammi-akther37/', label: 'LinkedIn'},
+                    { icon: FaTwitter, href: 'https://x.com/ShammiAkth36648', label: 'Twitter' },
+                   
+                  
+                  
                 ].map((social) => (
                   <motion.a
                     key={social.label}
@@ -146,7 +149,7 @@ const Contact = () => {
                     className="bg-slate-700/50 text-gray-300 hover:text-purple-400 p-3 rounded-full transition-colors duration-300"
                     aria-label={social.label}
                   >
-                    <div className="w-6 h-6"></div>
+                    {<social.icon size={24} />}
                   </motion.a>
                 ))}
               </div>
