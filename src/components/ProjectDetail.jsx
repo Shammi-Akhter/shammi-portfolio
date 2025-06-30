@@ -1,8 +1,13 @@
+import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { useParams, Link } from 'react-router-dom';
 import { FaGithub, FaExternalLinkAlt, FaArrowLeft, FaCode, FaLightbulb, FaRocket } from 'react-icons/fa';
 
 const ProjectDetail = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, []);
+
   const { id } = useParams();
 
   // Mock project data - in a real app, this would come from an API or database
@@ -130,8 +135,7 @@ const ProjectDetail = () => {
             <span className="bg-purple-600 text-white px-4 py-2 rounded-full text-sm font-semibold">
               {project.category}
             </span>
-            <span className="text-gray-300 text-sm">{project.duration}</span>
-            <span className="text-gray-300 text-sm">{project.teamSize}</span>
+            
           </div>
           
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">

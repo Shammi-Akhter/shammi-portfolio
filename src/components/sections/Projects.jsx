@@ -38,7 +38,7 @@ const Projects = () => {
     {
       id: 3,
       title: "HobbyHive-Community Hub",
-      description: "Discover and join hobby-based communities like book clubs, hiking groups, and painting circles!",
+      description: "Discover and join hobby-based communities like book clubs, hiking groups, and painting circles! Connect with like-minded individuals through shared interests and activities.",
       image: "/HobbyHive.png",
       technologies: ["React",  "React", "Firebase Auth", "Node.js", "Express", "MongoDB", "Tailwind CSS", "DaisyUI"],
       liveLink: "https://hobby-hive-55664.web.app/",
