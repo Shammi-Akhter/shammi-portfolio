@@ -35,7 +35,7 @@ const ProjectDetail = () => {
     2: {
       title: "Event Explorer",
       description: "A responsive React app for discovering and exploring events, with Firebase Auth, protected routes, and dynamic UI.",
-      image: "/public/Findfest.png",
+      image: "/Findfest.png",
       technologies: ["React", "Firebase", "React Router", "Context API", "Tailwind CSS", "AOS", "React Slick"],
       liveLink: "https://event-explorer-findfest.netlify.app/",
       githubLink: "https://github.com/Shammi-Akhter/FindFest-Event-Explorer",
@@ -62,7 +62,7 @@ const ProjectDetail = () => {
     3: {
       title: "Community Hub",
       description: "Discover and join hobby-based communities like book clubs, hiking groups, and painting circles!",
-      image: "/public/HobbyHive.png",
+      image: "/HobbyHive.png",
       technologies:  ["React",  "React", "Firebase Auth", "Node.js", "Express", "MongoDB", "Tailwind CSS", "DaisyUI"],
       liveLink: "https://hobby-hive-55664.web.app/",
       githubLink: "https://github.com/Shammi-Akhter/Hobby-Hive-Client",
