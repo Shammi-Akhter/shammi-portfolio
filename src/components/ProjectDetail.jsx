@@ -17,7 +17,7 @@ const ProjectDetail = () => {
       description: "A modern language exchange platform to browse, book, and review tutors with secure JWT auth, theme toggle, and full CRUD features. ",
       image: "/Language.png",
       technologies: ["HTML","Tailwind CSS","React", "Node.js", "MongoDB", "Express.js", "JWT"],
-      liveLink: "https://language-exchange-app-dde7b.web.app/add-tutorials",
+      liveLink: "https://language-exchange-app-dde7b.web.app/",
       githubLink: "https://github.com/Shammi-Akhter/Language-Learning-Platform-client",
       category: "Full Stack",
       features: ["User Authentication", "Language Catalog", "Tutors List" , "Tutors Details", "Booking Management"],
