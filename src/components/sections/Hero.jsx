@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import shammi from '../../assets/shammi.jpg'
+import shammi from '../../assets/shammi.webp'
 import {
   FaGithub,
   FaLinkedin,

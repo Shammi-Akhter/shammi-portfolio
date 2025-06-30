@@ -21,7 +21,7 @@ const Education = () => {
       ],
       gpa: "3.8/4.0"
     },
-    
+
   ];
 
   return (
@@ -122,17 +122,18 @@ const Education = () => {
         </div>
 
         {/* Additional Certifications */}
+        <div className="mt-20">
+          <h3 className="text-2xl font-bold text-white mb-8 text-center">
+            Additional <span className="text-purple-400">Certifications</span>
+          </h3>
+        </div>
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ delay: 0.8, duration: 0.8 }}
           className="mt-16"
         >
-          <h3 className="text-2xl font-bold text-white mb-8 text-center">
-            Additional <span className="text-purple-400">Certifications</span>
-          </h3>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
             {[
               {
                 name: "Skill Development for Mobile Game and Application Project ",
@@ -146,7 +147,6 @@ const Education = () => {
                 year: "2019",
                 description: "Enriching the knowledge of programming in C++, Java, Python, and C#"
               }
-              
             ].map((cert, index) => (
               <motion.div
                 key={cert.name}
@@ -154,7 +154,7 @@ const Education = () => {
                 animate={isInView ? { opacity: 1, scale: 1 } : {}}
                 transition={{ delay: 1 + index * 0.1, duration: 0.6 }}
                 whileHover={{ scale: 1.05 }}
-                className="bg-slate-700/30 rounded-xl p-6 hover:bg-slate-700/50 transition-all duration-300"
+                className="bg-slate-700/30 rounded-xl p-6 hover:bg-slate-700/50 transition-all duration-300 h-full"
               >
                 <h4 className="text-white font-semibold mb-2">{cert.name}</h4>
                 <p className="text-purple-400 text-sm mb-2">{cert.issuer}</p>

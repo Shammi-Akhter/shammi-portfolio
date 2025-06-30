@@ -10,33 +10,33 @@ const Skills = () => {
     {
       title: "Frontend",
       skills: [
-        { name: "HTML", level: 95, color: "from-purple-500 to-pink-500" },
-        { name: "CSS", level: 90, color: "from-purple-500 to-pink-500" },
-        { name: "JavaScript", level: 80, color: "from-purple-500 to-pink-500" },
-        { name: "Tailwind CSS", level: 88, color: "from-purple-500 to-pink-500" },
-        { name: "React", level: 75, color: "from-purple-500 to-pink-500" },
+        { name: "HTML", level: 95, color: "from-blue-500 to-blue-400" },
+        { name: "CSS", level: 90, color: "from-blue-500 to-blue-400" },
+        { name: "JavaScript", level: 80, color: "from-blue-500 to-blue-400" },
+        { name: "Tailwind CSS", level: 88, color: "from-blue-500 to-blue-400" },
+        { name: "React", level: 75, color: "from-blue-500 to-blue-400" },
         
       ]
     },
     {
       title: "Backend",
       skills: [
-        { name: "Node.js", level: 82, color: "from-purple-500 to-pink-500" },
-        { name: "Express.js", level: 78, color: "from-purple-500 to-pink-500" },
-        { name: "MongoDB", level: 75, color: "from-purple-500 to-pink-500" },
-        { name: "Firebase", level: 72, color: "from-purple-500 to-pink-500" },
+        { name: "Node.js", level: 82, color: "from-blue-500 to-blue-400" },
+        { name: "Express.js", level: 78, color: "from-blue-500 to-blue-400" },
+        { name: "MongoDB", level: 75, color: "from-blue-500 to-blue-400" },
+        { name: "Firebase", level: 72, color: "from-blue-500 to-blue-400" },
         
       ]
     },
     {
       title: "Tools & Others",
       skills: [
-        { name: "Git/GitHub", level: 85, color: "from-purple-500 to-pink-500" },
-        { name: "Netlify", level: 65, color: "from-purple-500 to-pink-500" },
-        { name: "Figma", level: 70, color: "from-purple-500 to-pink-500" },
-        { name: "Vite", level: 80, color: "from-purple-500 to-pink-500" },
-        { name: "VScode", level: 75, color: "from-purple-500 to-pink-500" },
-        { name: "vercel", level: 60, color: "from-purple-500 to-pink-500" },
+        { name: "Git/GitHub", level: 85, color: "from-blue-500 to-blue-400" },
+        { name: "Netlify", level: 65, color: "from-blue-500 to-blue-400" },
+        { name: "Figma", level: 70, color: "from-blue-500 to-blue-400" },
+        { name: "Vite", level: 80, color: "from-blue-500 to-blue-400" },
+        { name: "VScode", level: 75, color: "from-blue-500 to-blue-400" },
+        { name: "vercel", level: 60, color: "from-blue-500 to-blue-400" },
       ]
     }
   ];
