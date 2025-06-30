@@ -15,7 +15,7 @@ const Projects = () => {
   const projectsData = [
     {
       id: 1,
-      title: "Language Learning Platform",
+      title: "Secjaf-Learning Platform",
       description: "A modern language exchange platform to browse, book, and review tutors with secure JWT auth, theme toggle, and full CRUD features.",
       image: "/Language.png",
       technologies: ["HTML","Tailwind CSS","React", "Node.js", "MongoDB", "Express.js", "JWT"],
@@ -26,7 +26,7 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "Event Explorer",
+      title: "FindFest-Event Explorer",
       description: "A responsive React app for discovering and exploring events, with Firebase Auth, protected routes, and dynamic UI. ",
       image: "/Findfest.png",
       technologies: ["React", "Firebase", "React Router", "Context API", "Tailwind CSS", "AOS", "React Slick"],
@@ -37,19 +37,19 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: "Community Hub",
+      title: "HobbyHive-Community Hub",
       description: "Discover and join hobby-based communities like book clubs, hiking groups, and painting circles!",
       image: "/HobbyHive.png",
       technologies: ["React",  "React", "Firebase Auth", "Node.js", "Express", "MongoDB", "Tailwind CSS", "DaisyUI"],
       liveLink: "https://hobby-hive-55664.web.app/",
       githubLink: "https://github.com/Shammi-Akhter/Hobby-Hive-Client",
-      category: "Frontend",
+      category: "Full Stack",
       features: ["Current Ongoing Groups ", "Different Groups Information ", "Interactive Features", "Support", "Understandable Dashboard", "Responsive Design"]
     },
     
   ];
 
-  const categories = ["All", "Full Stack", "Frontend", "Backend"];
+  const categories = ["All", "Full Stack", "Frontend"];
 
   const filteredProjects = selectedCategory === 'All'
     ? projectsData
@@ -199,13 +199,13 @@ const Projects = () => {
           transition={{ delay: 0.8, duration: 0.8 }}
           className="text-center mt-12"
         >
-          <motion.button
+          {/* <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300"
           >
             View More Projects
-          </motion.button>
+          </motion.button> */}
         </motion.div>
       </div>
     </section>

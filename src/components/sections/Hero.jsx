@@ -10,10 +10,10 @@ import {
 
 const Hero = () => {
   const socialLinks = [
-    { icon: FaGithub, href: 'https://github.com/yourusername', label: 'GitHub' },
-    { icon: FaLinkedin, href: 'https://linkedin.com/in/yourusername', label: 'LinkedIn' },
-    { icon: FaTwitter, href: 'https://twitter.com/yourusername', label: 'Twitter' },
-    { icon: FaFacebook, href: 'https://facebook.com/yourusername', label: 'Facebook' },
+    { icon: FaGithub, href: 'https://github.com/Shammi-Akhter', label: 'GitHub' },
+    { icon: FaLinkedin, href: 'https://www.linkedin.com/in/shammi-akther37/', label: 'LinkedIn' },
+    { icon: FaTwitter, href: 'https://x.com/ShammiAkth36648', label: 'Twitter' },
+    
   ];
 
   const handleResumeDownload = () => {
@@ -79,7 +79,7 @@ const Hero = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 1, duration: 0.8 }}
-              className="flex justify-center lg:justify-start gap-4"
+              className="flex justify-center lg:justify-start gap-4 "
             >
               {socialLinks.map((social, index) => (
                 <motion.a

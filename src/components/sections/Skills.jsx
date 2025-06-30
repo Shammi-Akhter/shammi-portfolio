@@ -124,9 +124,9 @@ const Skills = () => {
           
           <div className="flex flex-wrap justify-center gap-4">
             {[
-              "Redux", "Context API", "REST APIs", "GraphQL", "JWT", "OAuth",
-              "Responsive Design", "Progressive Web Apps", "SEO", "Performance Optimization",
-              "Testing (Jest, React Testing Library)", "CI/CD", "Agile/Scrum", "RESTful APIs"
+              "JWT", 
+              "Responsive Design", "Progressive Web Apps",  "Performance Optimization",
+               "REST APIs"
             ].map((tech, index) => (
               <motion.span
                 key={tech}

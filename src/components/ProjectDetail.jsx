@@ -8,7 +8,7 @@ const ProjectDetail = () => {
   // Mock project data - in a real app, this would come from an API or database
   const projectData = {
     1: {
-      title: "Language Learning Platform",
+      title: "Secjaf-Language Learning Platform",
       description: "A modern language exchange platform to browse, book, and review tutors with secure JWT auth, theme toggle, and full CRUD features. ",
       image: "/Language.png",
       technologies: ["HTML","Tailwind CSS","React", "Node.js", "MongoDB", "Express.js", "JWT"],
@@ -33,7 +33,7 @@ const ProjectDetail = () => {
     },
     
     2: {
-      title: "Event Explorer",
+      title: "FindFest-Event Explorer",
       description: "A responsive React app for discovering and exploring events, with Firebase Auth, protected routes, and dynamic UI.",
       image: "/Findfest.png",
       technologies: ["React", "Firebase", "React Router", "Context API", "Tailwind CSS", "AOS", "React Slick"],
@@ -60,7 +60,7 @@ const ProjectDetail = () => {
     
 
     3: {
-      title: "Community Hub",
+      title: "HobbyHive-Community Hub",
       description: "Discover and join hobby-based communities like book clubs, hiking groups, and painting circles!",
       image: "/HobbyHive.png",
       technologies:  ["React",  "React", "Firebase Auth", "Node.js", "Express", "MongoDB", "Tailwind CSS", "DaisyUI"],
