@@ -135,23 +135,18 @@ const Education = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
-                name: "AWS Certified Developer",
-                issuer: "Amazon Web Services",
-                year: "2023",
-                description: "Cloud development and deployment expertise"
+                name: "Skill Development for Mobile Game and Application Project ",
+                issuer: "ICT Division Bangladesh",
+                year: "2018",
+                description: "Mobile Application Development (IOS)"
               },
               {
-                name: "React Developer Certification",
-                issuer: "Meta",
-                year: "2023",
-                description: "Advanced React development skills"
-              },
-              {
-                name: "MongoDB Database Administrator",
-                issuer: "MongoDB University",
-                year: "2022",
-                description: "Database management and optimization"
+                name: "Inter University Programming Contest",
+                issuer: "Bangladesh University of Business and Technology",
+                year: "2019",
+                description: "Enriching the knowledge of programming in C++, Java, Python, and C#"
               }
+              
             ].map((cert, index) => (
               <motion.div
                 key={cert.name}
